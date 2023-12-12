@@ -11,9 +11,9 @@
 </head>
 <body>
   <header>
-    <div class="nav-container">
-      <a href="#" class="nav-name hdr">UniDesign</a>
-      <nav class="nav-links">
+    <div class="container nav-container">
+      <a href="#" class="m-0 hdr bl-d">UniDesign</a>
+      <nav class="container nav-links">
         <a href="#" class="fz-30 gr-l">About Me</a>
         <a href="#" class="fz-30 gr-l">Projects</a>
         <a href="#" class="fz-30 gr-l">Contacts</a>
@@ -22,16 +22,16 @@
     </div>
   </header>
   <main>
-    <section class="introduction">
-      <div class="intro-container">
-        <div class="intro-info">
-          <p class="um fz-30">Welcome To My PortFolio</p>
-          <h1 class="intro-designer hdr">
+    <section>
+      <div class="container intro-container">
+        <div class="container intro-info">
+          <p class="m-0 fz-30 um">Welcome To My PortFolio</p>
+          <h1 class="m-0 intro-designer hdr">
             <span class="um">Hi , I am Steven UI/UX  </span>
             <span class="yw">Designer</span>
           </h1>
-          <p class="gr-d">Lorem Ipsum dolar sit amet, consectetur adipicsing elit. Locus odio et, plateo erat est sed turpis hoc equit</p>
-          <div class="intro-buttons">
+          <p class="m-0 gr-d">Lorem Ipsum dolar sit amet, consectetur adipicsing elit. Locus odio et, plateo erat est sed turpis hoc equit</p>
+          <div class="m-0 container intro-buttons">
             <button class="btn wh">Hire me</button>
             <button class="btn um">My Projects</button>
           </div>
@@ -39,108 +39,104 @@
         <div class="intro-photo"></div>
       </div>
     </section>
-    <section class="about-me">
-      <div class="about-container">
-        <div>
-          <h2 class="hdr um">About Me</h2>
-          <p class="about-info">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has .</p>
-          <button class="btn wh">Hire me</button>
+    <section>
+      <div class="container about-container">
+        <div class="about-info">
+          <h2 class="hdr about-hdr um">About Me</h2>
+          <p class="about-txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has .</p>
+          <button class="btn about-btn wh">Hire me</button>
         </div>
-        <img src="/img/skills.png" alt="Picture of human with vr">
+        <div class="about-photo"></div>
       </div>
     </section>
-    <!-- <div class="block-space"></div> -->
-    <section class="portfolio">
-      <div class="portfolio-container">
-        <div class="portfolio-info">
-          <h2 class="hdr um">My Projects</h2>
-          <p>Lorem Ipsum is simply dummy text of the printing</p>
+    <section>
+      <div class="container portfolio-container">
+        <div class="container portfolio-info">
+          <h2 class="m-0 ta-c hdr portfolio-hdr um">My Projects</h2>
+          <p class="m-0 ta-c">Lorem Ipsum is simply dummy text of the printing</p>
         </div>
-        <div class="projects">
-          <img src="img/appDesign.png" alt="UI Design of an app">
-          <img src="img/car.png" alt="Car Drawing">
-          <img src="img/appDesign.png" alt="UI Design of an app">
-          <img src="img/woman.png" alt="Drawing of a woman">
-          <img src="img/woman.png" alt="Drawing of a woman">
-          <img src="img/woman.png" alt="Drawing of a woman">
-          <img src="img/letter.png" alt="Letter">
-          <img src="img/letter.png" alt="Letter">
-          <img src="img/letter.png" alt="Letter">
+        <div class="container portfolio-projects">
+          <div class="portfolio-project pp-interface"></div>
+          <div class="portfolio-project pp-car"></div>
+          <div class="portfolio-project pp-interface"></div>
+          <div class="portfolio-project pp-woman"></div>
+          <div class="portfolio-project pp-woman"></div>
+          <div class="portfolio-project pp-woman"></div>
+          <div class="portfolio-project pp-letter"></div>
+          <div class="portfolio-project pp-letter"></div>
+          <div class="portfolio-project pp-letter"></div>
         </div>
       </div>
     </section>
     <div class="block-space"></div>
-    <section class="contact">
-      <div class="contact-container">
-        <h2 class="hdr um tc m-0">Contact me</h2>
-        <p class="tc bl m-0">Lorem Ipsum is simply dummy text of the printing</p>
-        <div class="contact-form">
-          <form action="#">
-            <input type="text" id="email" placeholder="Email" class="contact-style contact-field bl">
-            <input type="text" id="password" placeholder="Password" class="contact-style contact-field bl">
-            <input type="text" id="message" placeholder="Message.." class="contact-style contact-field bl">
-            <button class="contact-style btn" type="submit">
+    <section>
+      <div class="container contact-container">
+        <h2 class="hdr contact-hdr um ta-c m-0">Contact me</h2>
+        <p class="contact-title ta-c bl m-0">Lorem Ipsum is simply dummy text of the printing</p>
+        <div class="container contact-form-wrap">
+          <form class="container contact-form" action="#">
+            <input type="text" id="email" placeholder="Email" class="contact-style contact-field">
+            <input type="text" id="password" placeholder="Password" class="contact-style contact-field">
+            <textarea id="message" name="message" placeholder="Message.." class="contact-style contact-field"></textarea>
+            <button class="contact-style contact-btn" type="submit">
               Contact
             </button>
           </form>
-          <div class="contact-image"></div>
         </div>
       </div>
     </section>
   </main>
   <div class="block-space"></div>
-  <footer class="footer">
-    <div class="footer-container">
-      <div class="footer-top">
-        <div class="subscription">
-          <h1 class="hdr">UniDesign</h1>
-          <form action="#">
-            <input type="text" id="email" placeholder="Email" class="wh">
-            <button type="submit" class="wh">
+  <footer>
+    <div class="container footer-container">
+      <div class="container footer-top">
+        <div>
+          <h1 class="m-0 hdr sub-hdr bl-d">UniDesign</h1>
+          <form class="container sub-form" action="#">
+            <input class="sub-style sub-email" type="text" id="email" placeholder="Email">
+            <button class="sub-style sub-btn wh" type="submit">
               Subscribe
             </button>
           </form>
         </div>
-        <div class="links-container">
-          <div class="links">
-            <p class="links-header">Platform</p>
-            <a href="#">Home</a>
-            <a href="#">Overview</a>
-            <a href="#">Pricing</a>
-            <a href="#">About</a>
+        <div class="container footer-links-container">
+          <div class="container footer-links-col">
+            <p class="m-0 footer-links-hdr">Platform</p>
+            <div class="container footer-links">
+              <a class="footer-link" href="#">Home</a>
+              <a class="footer-link" href="#">Overview</a>
+              <a class="footer-link" href="#">Pricing</a>
+              <a class="footer-link" href="#">About</a>
+            </div>
           </div>
-          <div class="links">
-            <p class="links-header">Help</p>
-            <a href="#">How it works?</a>
-            <a href="#">Pay?</a>
-            <a href="#">Question?</a>
-            <a href="#">Contact?</a>
+          <div class="container footer-links-col">
+            <p class="m-0 footer-links-hdr">Help</p>
+            <div class="container footer-links">
+              <a class="footer-link" href="#">How it works?</a>
+              <a class="footer-link" href="#">Pay?</a>
+              <a class="footer-link" href="#">Question?</a>
+              <a class="footer-link" href="#">Contact?</a>
+            </div>
           </div>
-          <div class="links">
-            <p class="links-header">Contact</p>
-            <p>(+000) 1234-6789</p>
-            <p>116 Archlor Road
-              Broadlaband,
-              NewYork (NYC)
-              1205</p>
+          <div class="container footer-links-col">
+            <p class="m-0 footer-links-hdr">Contact</p>
+            <div class="container footer-links">
+              <p class="footer-link m-0">(+000) 1234-6789</p>
+              <p class="footer-link m-0">116 Archlor Road
+                Broadlaband,
+                NewYork (NYC)
+                1205</p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="footer-bottom">
-        <p class="m-0">CopyRighted 2020-2023   All Rights Reserved.</p>
-        <div class="logos">
-          <div class="logo-container">
-            <img src="img/youtube.png" alt="Youtube logo">
-          </div>
-          <div class="logo-container">
-            <img src="img/inst.png" alt="Instagramm logo">
-          </div>
-          <div class="logo-container">
-            <img src="img/fb.png" alt="Facebook logo">
-          </div>
-          <div class="logo-container">
-            <img src="img/LIn.png" alt="LinkedIn logo">
-          </div>
+      <div class="container footer-bottom">
+        <p class="m-0 footer-copyright">CopyRighted 2020-2023   All Rights Reserved.</p>
+        <div class="container footer-logos">
+          <img src="img/logo-yt.png" alt="Youtube logo">
+          <img src="img/logo-inst.png" alt="Instagram logo">
+          <img src="img/logo-fb.png" alt="Facebook logo">
+          <img src="img/logo-lin.png" alt="LinkedIn logo">
         </div>
       </div>
     </div>
