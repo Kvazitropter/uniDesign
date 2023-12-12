@@ -1,15 +1,3 @@
-@font-face {
-  font-weight: 400;
-  font-family: "Poppins";
-  src: url("../fonts/Poppins-Regular.ttf");
-}
-
-@font-face {
-  font-weight: 700;
-  font-family: "Poppins";
-  src: url("../fonts/Poppins-Bold.ttf");
-}
-
 :root {
   --blue-dark: #0E0578;
   --gray: #383838;
